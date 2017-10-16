@@ -1,0 +1,55 @@
+{
+  "name": "wf-components",
+  "version": "0.1.0",
+  "description": "A simple test project for publishing a react component lib to npm.",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "NODE_ENV=development start-storybook -p 9001",
+    "test": "jest --coverage --verbose",
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna exec --parallel -- babel src -d dist --ignore spec.js,story.js",
+    "build-storybook": "build-storybook",
+    "publish": "lerna publish --skip-git --skip-npm",
+    "prepublish": "yarn build",
+    "precommit": "yarn test",
+    "postinstall": "yarn bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garmeeh/wf-components.git"
+  },
+  "author": "Gary Meehan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garmeeh/wf-components/issues"
+  },
+  "homepage": "https://github.com/garmeeh/wf-components#readme",
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.12",
+    "@storybook/addon-links": "^3.2.12",
+    "@storybook/react": "^3.2.12",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.1",
+    "glob-loader": "^0.3.0",
+    "jest": "^21.2.1",
+    "lerna": "^2.4.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-test-renderer": "^16.0.0",
+    "styled-components": "^2.2.1"
+  },
+  "jest": {
+    "resetModules": true,
+    "testMatch": [
+      "**/?(*.)(spec).js?(x)"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>node_modules/"
+    ]
+  }
+}

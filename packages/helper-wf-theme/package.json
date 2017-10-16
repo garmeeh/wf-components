@@ -1,0 +1,8 @@
+{
+  "name": "helper-wf-theme",
+  "version": "0.1.0",
+  "description": "Core Theme",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "author": "Gary Meehan"
+}
