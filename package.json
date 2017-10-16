@@ -1,6 +1,6 @@
 {
   "name": "wf-components",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A simple test project for publishing a react component lib to npm.",
   "main": "build/index.js",
   "scripts": {
