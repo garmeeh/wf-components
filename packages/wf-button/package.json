@@ -1,0 +1,13 @@
+{
+  "name": "wf-button",
+  "version": "0.1.2",
+  "description": "Button Component",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "author": "Gary Meehan",
+  "dependencies": {
+    "helper-wf-theme": "^0.1.1",
+    "react": "^16.0.0",
+    "styled-components": "^2.2.1"
+  }
+}
