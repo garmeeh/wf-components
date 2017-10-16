@@ -1,6 +1,6 @@
 {
   "name": "wf-components",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple test project for publishing a react component lib to npm.",
   "main": "build/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "bootstrap": "lerna bootstrap",
     "build": "lerna exec --parallel -- babel src -d dist --ignore spec.js,story.js",
     "build-storybook": "build-storybook",
-    "publish": "lerna publish --skip-git --skip-npm",
+    "publish": "lerna publish",
     "prepublish": "yarn build",
     "precommit": "yarn test",
     "postinstall": "yarn bootstrap"
