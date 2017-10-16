@@ -1,6 +1,6 @@
 {
   "name": "wf-button",
-  "version": "0.1.2",
+  "version": "0.1.8",
   "description": "Button Component",
   "main": "dist/index.js",
   "module": "src/index.js",
