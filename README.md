@@ -1,5 +1,7 @@
 # Workflow Components
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/garmeeh/wf-components.svg)](https://greenkeeper.io/)
+
 This repo has been set up for the purpose of using it is a playground for developing and publishing React components to npm.
 
 ## Getting Started
