@@ -28,7 +28,7 @@
   "homepage": "https://github.com/garmeeh/wf-components#readme",
   "devDependencies": {
     "@storybook/addon-actions": "^4.0.0",
-    "@storybook/addon-links": "^3.2.12",
+    "@storybook/addon-links": "^4.0.0",
     "@storybook/react": "^3.2.12",
     "babel-cli": "^6.26.0",
     "babel-jest": "^21.2.0",
