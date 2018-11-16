@@ -8,6 +8,6 @@
   "dependencies": {
     "helper-wf-theme": "^0.1.1",
     "react": "^16.0.0",
-    "styled-components": "^2.2.1"
+    "styled-components": "^4.1.1"
   }
 }
